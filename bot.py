@@ -9,7 +9,7 @@ access_token_secret = os.environ["ACCESSTOKENSECRET"]
 auth = tweepy.OAuth1UserHandler(
     consumer_key, consumer_secret, access_token, access_token_secret)
 
-api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limity_notify=True)
+api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
 def perolas():
