@@ -1,7 +1,6 @@
 import os
 import random
 import tweepy
-import time
 
 consumer_key = os.environ['CONSUMERKEY']
 consumer_secret = os.environ['CONSUMERSECRET']
@@ -63,16 +62,11 @@ def perolas():
 
 
 def main():
-    data = time.time()
-    while True:
-        tempo_passado = (time.time() - data)
-        if tempo_passado > 86400:
-            tweet = perolas()
-            if tweet == "\"olha essa mikasa brasileira 100% jesus completamente gostosa\"":
-                api.update_status_with_media(tweet, "minhacasa.png")
-            else:
-                api.update_status(tweet)
-            data = time.time()
+    tweet = perolas()
+    if tweet == "\"olha essa mikasa brasileira 100% jesus completamente gostosa\"":
+        api.update_status_with_media(tweet, "minhacasa.png")
+    else:
+        api.update_status(tweet)
 
 
 if __name__ == "__main__":
