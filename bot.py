@@ -6,7 +6,10 @@ consumer_key = os.environ['CONSUMERKEY']
 consumer_secret = os.environ['CONSUMERSECRET']
 access_token = os.environ['ACCESSTOKEN']
 access_token_secret = os.environ['ACCESSTOKENSECRET']
-
+print(consumer_key)
+print(consumer_secret)
+print(access_token)
+print(access_token_secret)
 auth = tweepy.OAuth1UserHandler(
     consumer_key, consumer_secret, access_token, access_token_secret)
 
