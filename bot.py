@@ -2,8 +2,8 @@ import os
 import random
 import tweepy
 
-consumer_key = os.environ['CONSUMERKEY']
-consumer_secret = os.environ['CONSUMERSECRET']
+consumer_key = os.environ['APIKEY']
+consumer_secret = os.environ['APISECRET']
 access_token = os.environ['ACCESSTOKEN']
 access_token_secret = os.environ['ACCESSTOKENSECRET']
 auth = tweepy.OAuth1UserHandler(
