@@ -55,7 +55,12 @@ def perolas():
         "\"perae que vou dar rage aqui\"",
         "\"ajudo, ajudo, quer que eu escreva o número em que linguagem?\"",
         "\"ai mano esse compilador do rust é muito gay\"",
-        "\"olha essa mikasa brasileira 100% jesus completamente gostosa\""]
+        "\"olha essa mikasa brasileira 100% jesus completamente gostosa\"",
+        "\"você consegue comprar card de gay de graça\"",
+        "\"não tem como ser boomer e gay\"",
+        "\"voces são os 4 viado e eu sou o homofobico\""
+        "\"nordestino que se foda\"",
+        "\"não sei escrever high school\"\n\n\"é ray school\""]
     tweet_do_dia = random.choice(perolasdovoice)
     return tweet_do_dia
 
