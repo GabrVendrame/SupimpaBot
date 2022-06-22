@@ -58,7 +58,7 @@ def perolas():
         "\"olha essa mikasa brasileira 100% jesus completamente gostosa\"",
         "\"você consegue comprar card de gay de graça\"",
         "\"não tem como ser boomer e gay\"",
-        "\"voces são os 4 viado e eu sou o homofobico\""
+        "\"voces são os 4 viado e eu sou o homofobico\"",
         "\"nordestino que se foda\"",
         "\"não sei escrever high school\"\n\n\"é ray school\"",
         "\"ta faltando um boneco árabe homofóbico nesse jogo de tiro\"",
