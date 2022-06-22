@@ -60,7 +60,11 @@ def perolas():
         "\"não tem como ser boomer e gay\"",
         "\"voces são os 4 viado e eu sou o homofobico\""
         "\"nordestino que se foda\"",
-        "\"não sei escrever high school\"\n\n\"é ray school\""]
+        "\"não sei escrever high school\"\n\n\"é ray school\"",
+        "\"ta faltando um boneco árabe homofóbico nesse jogo de tiro\"",
+        "\"o próximo boneco vai ser árabe e vai se chamar Mohammed\"\n\n\"e a ult dele ele se explode\"",
+        "\"daria 100 cueca pro mendigo pra  compra shyvana?\"",
+        "\"eu amo o bostil pra caralho vei\""]
     tweet_do_dia = random.choice(perolasdovoice)
     return tweet_do_dia
 
